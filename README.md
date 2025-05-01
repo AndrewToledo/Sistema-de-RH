@@ -1,8 +1,9 @@
+HEAD
 # 🧠 RH System
 
 Sistema completo de Gestão de RH com controle de funcionários, férias, avaliações, recrutamento, comunicados e relatórios.
 
----
+
 
 ## 📦 Tecnologias Utilizadas
 
@@ -11,7 +12,6 @@ Sistema completo de Gestão de RH com controle de funcionários, férias, avalia
 - **ORM:** Prisma
 - **Banco de dados:** PostgreSQL
 
----
 
 ## 🔧 Pré-requisitos
 
@@ -62,7 +62,7 @@ npm run dev
 
 Acesse o frontend via: http://localhost:5173
 
----
+
 
 ## 🐳 Como rodar com Docker (opcional)
 
@@ -81,7 +81,7 @@ selene-rh-system/
 
 📄 backend/Dockerfile  
 
----
+
 
 FROM node:18
 
@@ -97,11 +97,10 @@ RUN npx prisma generate
 EXPOSE 3000
 
 CMD ["npm", "run", "start:dev"]
----
+
 
 📄 frontend/Dockerfile
 
----
 
 FROM node:18
 
@@ -116,11 +115,11 @@ EXPOSE 5173
 
 CMD ["npm", "run", "dev"]
 
----
+
 
 📄 backend/docker-compose.yml
 
----
+
 version: '3.8'
 
 services:
@@ -161,7 +160,7 @@ services:
 
 volumes:
   pgdata:
----
+
 
 ### ▶️ 3. Subir os containers
 Dentro da pasta backend, rode:
@@ -207,7 +206,7 @@ http://localhost:3000/api
 
 Você pode autenticar com o token gerado no login (/auth/login) e testar as rotas protegidas.
 
----
+
 ### 🔐 Como realizar o login no sistema
 Para acessar o sistema, siga os passos abaixo:
 
@@ -270,3 +269,5 @@ selene-rh-system/
 ## 📫 Contato
 Andrei Toledo
 andreitoledo_dev@hotmail.com
+# Sistema-de-RH
+54a796f97535631e45ddf678b2b5c5b98b467be4
