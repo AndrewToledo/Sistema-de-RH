@@ -267,7 +267,5 @@ selene-rh-system/
 ---
 
 ## 📫 Contato
-Andrei Toledo
-andreitoledo_dev@hotmail.com
 # Sistema-de-RH
 54a796f97535631e45ddf678b2b5c5b98b467be4
